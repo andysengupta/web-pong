@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web PONG</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Web PONG</h1>
+        <canvas id="gameCanvas" width="800" height="400"></canvas>
+        <div class="controls">
+            <p>Player 1: Use W/S keys | Player 2: Use ↑/↓ arrow keys</p>
+            <button id="startButton">Start Game</button>
+            <button id="resetButton">Reset</button>
+        </div>
+        <div class="score">
+            <span id="player1Score">0</span> - <span id="player2Score">0</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
